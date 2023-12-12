@@ -1,17 +1,36 @@
-/*  Global styles */
+/*  GLOBAL STYLES */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* GENERAL STYLES */
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* Sets the background color for the entire webpag e*/
 }
 
+a {
+    color: #ffffff; /* Standard styling for anchor tags */
+    text-decoration: none; /* Removes underline from links */
+}
 
-/* Header styles */
+p {
+    font-size: 16px; /* Default font size for paragraphs */
+}
 
+/* UTILITY CLASSES */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* HEADER STYLES */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,9 +43,8 @@ body {
     font-size: 48px;
 }
 
-/* differnt color for the letters "seo" in Horiseon in the header */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /* different color for the letters "seo" in "Horiseon" in the header */
 }
 
 /* Updated CSS selector from "div" to "nav" in order to match the semantic <nav> element introduced in index.html which I used to replace the non-semantic <div> */
@@ -43,24 +61,13 @@ body {
     list-style-type: none;
 }
 
-/* updated CSS selector from "div" to "nav" in line with the change made in index.html (see prior comment for more detail) */
+/* Updated CSS selector from "div" to "nav" in line with the change made in index.html (see prior comment for more detail) */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-
-/* Hero section styles */
-
+/* HERO SECTION STYLES */
 .hero {
     height: 800px;
     width: 100%;
@@ -70,26 +77,14 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-
-/* Main content styles */
-
+/* MAIN CONTENT STYLES */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* rearranged within CSS document to be within the main content styles portion of the CSS */
+/* Rearranged CSS document have all elements having to do with .search-engine-optimization, .online-reputation-management, and .social-media marketing (i.e., including the elements for their imgs and h2s) to be within the main content styles portion of the CSS */ 
 /* Consolidated .search-engine-optimization, .online-reputation-management, and .social-media-marketing, as their styles were all identical */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
@@ -111,9 +106,7 @@ p {
     font-size: 36px;
 }
 
-
-/* Benefits (aside) styles */
-
+/* BENEFITS (ASIDE) STYLES */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -144,9 +137,7 @@ p {
     max-width: 150px;
 }
 
-
-/* Footer styles */
-
+/* FOOTER STYLES */
 .footer {
     padding: 30px;
     clear: both;
