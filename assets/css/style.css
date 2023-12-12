@@ -7,19 +7,21 @@
 
 /* GENERAL STYLES */
 body {
-    background-color: #d9dcd6; /* Sets the background color for the entire webpag e*/
+    background-color: #d9dcd6;
 }
 
+/* Rearranged the a and p tags in the CSS to emphasize their role as general styles, which could be applicable acorss different sections of the site */
 a {
-    color: #ffffff; /* Standard styling for anchor tags */
-    text-decoration: none; /* Removes underline from links */
+    color: #ffffff; 
+    text-decoration: none; 
 }
 
 p {
-    font-size: 16px; /* Default font size for paragraphs */
+    font-size: 16px;
 }
 
 /* UTILITY CLASSES */
+/* Rearranged .float-left and .float-right in the CSS to emphasize their role as general utility classes, which could be applicable across different sections of the site (although they are not done so now but, perhaps, would be in the future) */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -84,7 +86,7 @@ p {
     margin-left: 20px;
 }
 
-/* Rearranged CSS document have all elements having to do with .search-engine-optimization, .online-reputation-management, and .social-media marketing (i.e., including the elements for their imgs and h2s) to be within the main content styles portion of the CSS */ 
+/* Rearranged CSS document so all elements having to do with .search-engine-optimization, .online-reputation-management, and .social-media marketing (including the elements for their imgs and h2s) are within the main content styles portion of the CSS */ 
 /* Consolidated .search-engine-optimization, .online-reputation-management, and .social-media-marketing, as their styles were all identical */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
