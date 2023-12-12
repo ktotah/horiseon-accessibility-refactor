@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-/* updated CSS selector from "div" to "nav" in order to match the semantic <nav> element introduced in index.html which I used to replace the non-semantic <div> */
+/* Updated CSS selector from "div" to "nav" in order to match the semantic <nav> element introduced in index.html which I used to replace the non-semantic <div> */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,7 +33,7 @@ body {
     font-size: 20px;
 }
 
-/* updated CSS selector from "div" to "nav" in line with the change made in index.html (see prior comment for more detail) */
+/* Updated CSS selector from "div" to "nav" in line with the change made in index.html (see prior comment for more detail) */
 .header nav ul {
     list-style-type: none;
 }
