@@ -198,6 +198,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* Adjusted heading level from h2 to h4 in the footer in order to maintain sequential order of heading attributes for accessibility and proper document structure */
+.footer h4 {
     font-size: 20px;
 }
