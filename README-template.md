@@ -18,13 +18,6 @@ Through this project, I gained a deeper understanding of the significance of web
 
 Visit the deployed Horiseon Marketing Agency Website [here](https://ktotah.github.io/horiseon-accessibility-refactor/)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Screenshot
 
 ![Screenshot of Horiseon Marketing Agency Website](assets/images/screenshot.png)
